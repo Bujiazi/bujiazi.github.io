@@ -8,6 +8,21 @@ body {
     padding: 0;
 }
 
+body{
+    position: relative; /* 确保可以放背景层 */
+  }
+  
+  /* 半透明背景图层 */
+  body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("images/bg.png") center/cover no-repeat;
+    opacity: 0.22;
+    z-index: -1;
+    pointer-events: none;
+  }
+
 a {
     color: #0056b3;
     text-decoration: none;
