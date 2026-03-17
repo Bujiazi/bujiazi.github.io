@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Source Sans 3', Arial, sans-serif;
+    font-weight: 600;
     background-color: #ffffff;
     color: #333;
     line-height: 1.6;
